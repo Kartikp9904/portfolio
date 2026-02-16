@@ -24,11 +24,6 @@ export default function Home() {
               <p className="text-xl md:text-2xl text-muted-foreground animate-slide-up" style={{ animationDelay: "0.2s" }}>
                 Building efficiency, execution, and solutions that work.
               </p>
-              <div className="pt-8 animate-slide-up" style={{ animationDelay: "0.4s" }}>
-                <button className="px-8 py-4 bg-white text-black font-bold rounded-full hover:scale-105 transition-transform duration-300">
-                  View Work
-                </button>
-              </div>
             </div>
 
             {/* Right: Image */}
@@ -37,7 +32,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-blue-500/20 z-10 mix-blend-overlay" />
                 {/* Placeholder Image - Replace with your own */}
                 <Image
-                  src="/hero-image.jpg"
+                  src="public/hero-image.jpg"
                   alt="Kartik Patel"
                   fill
                   priority
