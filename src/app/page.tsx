@@ -22,7 +22,7 @@ export default function Home() {
                 KARTIK <br /> PATEL.
               </h1>
               <p className="text-xl md:text-2xl text-muted-foreground animate-slide-up" style={{ animationDelay: "0.2s" }}>
-                Building efficiency, execution, and solutions that work.
+                Always smiling, loving life fully, and spreading happiness.
               </p>
             </div>
 
