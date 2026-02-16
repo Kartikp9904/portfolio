@@ -32,7 +32,7 @@ export default function Home() {
                 <div className="absolute inset-0 bg-gradient-to-tr from-purple-500/20 to-blue-500/20 z-10 mix-blend-overlay" />
                 {/* Placeholder Image - Replace with your own */}
                 <Image
-                  src="public/hero-image.jpg"
+                  src="/hero-image.png"
                   alt="Kartik Patel"
                   fill
                   priority
