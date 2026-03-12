@@ -7,15 +7,15 @@ import React from "react";
 const skillCategories = [
     {
         title: "Languages",
-        skills: ["C / C++", "Python", "PHP", "Java", "JavaScript", "TypeScript"]
+        skills: ["C / C++", "Python", "PHP", "JavaScript", "TypeScript"]
     },
     {
         title: "Web Technologies",
-        skills: ["React", "Next.js", "HTML5", "CSS3", "Tailwind CSS", "Three.js", "Supabase"]
+        skills: ["React", "Next.js", "HTML5", "CSS3", "Tailwind CSS", "Supabase"]
     },
     {
         title: "Tools & Software",
-        skills: ["Git", "VS Code", "Figma", "Lovable", "Cloudinary", "Office"]
+        skills: ["Git", "Figma", "Lovable", "Cloudinary", "Office"]
     }
 ];
 
@@ -24,9 +24,9 @@ const chartData = [
     { label: "Frontend", value: 80 },
     { label: "Backend", value: 60 },
     { label: "UI/UX", value: 80 },
-    { label: "AI Tools", value: 90 },
-    { label: "DevOps", value: 75 },
-    { label: "Core CS", value: 70 },
+    { label: "AI Tools", value: 100 },
+    { label: "DevOps", value: 50 },
+    { label: "Core CS", value: 50 },
 ];
 
 export function Skills() {
